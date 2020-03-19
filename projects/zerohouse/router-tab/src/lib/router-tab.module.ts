@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
 import {RouterTab} from './router-tab.directive';
-import {MatTabsModule} from '@angular/material';
+import { MatTabGroup } from '@angular/material/tabs';
 import {RouterTabs} from './router-tabs.directive';
 
 @NgModule({
