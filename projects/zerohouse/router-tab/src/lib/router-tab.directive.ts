@@ -1,5 +1,5 @@
 import {Directive} from '@angular/core';
-import {MatTab} from '@angular/material';
+import { MatTab } from '@angular/material/tabs';
 import {RouterLink} from '@angular/router';
 
 @Directive({
