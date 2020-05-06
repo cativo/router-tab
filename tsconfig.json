@@ -13,8 +13,8 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2017", "dom"],
     "paths": {
-      "@zerohouse/router-tab": ["dist/zerohouse/router-tab"],
-      "@zerohouse/router-tab/*": ["dist/zerohouse/router-tab/*"],
+      "@cativo/router-tab": ["dist/cativo/router-tab"],
+      "@cativo/router-tab/*": ["dist/cativo/router-tab/*"],
       "core-js/es7/reflect": ["node_modules/core-js/proposals/reflect-metadata"]
     }
   }

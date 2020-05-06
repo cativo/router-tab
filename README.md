@@ -3,17 +3,18 @@
 Router-Tab Directive
 
 ### Install
-    
-    npm install @zerohouse/router-tab --save
-    
+
+    npm install @cativo/router-tab --save
+
 ### Import RouterTabModule
+
     @NgModule({
       declarations: [
         AppComponent, PageAComponent, PageBComponent, PageCComponent
       ],
       imports: [
         RouterTabModule, // this module
-    
+
         RouterModule.forRoot([
           {path: '', pathMatch: 'full', redirectTo: 'a'},
           {path: 'a', component: PageAComponent},
@@ -28,10 +29,9 @@ Router-Tab Directive
     })
     export class AppModule {
     }
-    
-    
+
 ### use routerTabs On MatTabGroup
-        
+
     <mat-tab-group routerTabs>
       <mat-tab label="Page A" routerLink="a"></mat-tab>
       <mat-tab label="Page B" routerLink="b"></mat-tab>

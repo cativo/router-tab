@@ -1,28 +1,29 @@
-import {BrowserModule} from '@angular/platform-browser';
-import {NgModule} from '@angular/core';
-
-import {RouterTabModule} from '../../projects/zerohouse/router-tab/src/lib/router-tab.module';
-import {RouterModule} from '@angular/router';
-import {AppComponent, PageAComponent, PageBComponent, PageCComponent} from './app.components';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { RouterModule } from "@angular/router";
+import { RouterTabModule } from "../../projects/cativo/router-tab/src/lib/router-tab.module";
+import {
+  AppComponent,
+  PageAComponent,
+  PageBComponent,
+  PageCComponent,
+} from "./app.components";
 
 @NgModule({
-  declarations: [
-    AppComponent, PageAComponent, PageBComponent, PageCComponent
-  ],
+  declarations: [AppComponent, PageAComponent, PageBComponent, PageCComponent],
   imports: [
     RouterModule.forRoot([
-      {path: '', pathMatch: 'full', redirectTo: 'a'},
-      {path: 'a', component: PageAComponent},
-      {path: 'b', component: PageBComponent},
-      {path: 'c', component: PageCComponent}
+      { path: "", pathMatch: "full", redirectTo: "a" },
+      { path: "a", component: PageAComponent },
+      { path: "b", component: PageBComponent },
+      { path: "c", component: PageCComponent },
     ]),
     BrowserModule,
     RouterTabModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule {
-}
+export class AppModule {}

@@ -1,6 +1,6 @@
 {
   "name": "@cativo/router-tab",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "peerDependencies": {
     "@angular/common": "^9.1.4",
     "@angular/core": "^9.1.4",
@@ -11,7 +11,7 @@
   "description": "router-tab directive for mat-tabs | based on @zerohouse/router-tab",
   "repository": {
     "type": "git",
-    "url": "git@github.com:cativo/router-tab.git"
+    "url": "git+ssh://git@github.com/cativo/router-tab.git"
   },
   "keywords": [
     "router",
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/cativo/router-tab/issues"
   },
-  "homepage": "https://github.com/cativo/router-tab#readme"
+  "homepage": "https://github.com/cativo/router-tab#readme",
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  }
 }
