@@ -1,9 +1,6 @@
 {
   "name": "@cativo/router-tab",
-  "version": "0.0.10",
-  "scripts": {
-    "publish": "np"
-  },
+  "version": "0.0.10.1",
   "peerDependencies": {
     "@angular/common": "^9.1.4",
     "@angular/core": "^9.1.4",
@@ -27,8 +24,8 @@
     "url": "https://github.com/cativo/router-tab/issues"
   },
   "homepage": "https://github.com/cativo/router-tab#readme",
-  "main": "karma.conf.js",
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "echo \"No test specified\"",
+    "publish": "np"
   }
 }

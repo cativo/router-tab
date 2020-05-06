@@ -1,0 +1,8 @@
+.github
+e2e
+projects
+src
+.editorconfig
+*.json
+*.md
+dist/cativo/router-tab/.
