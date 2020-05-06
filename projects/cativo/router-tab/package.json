@@ -1,6 +1,9 @@
 {
   "name": "@cativo/router-tab",
-  "version": "0.0.9",
+  "version": "0.0.10",
+  "scripts": {
+    "publish": "np"
+  },
   "peerDependencies": {
     "@angular/common": "^9.1.4",
     "@angular/core": "^9.1.4",
