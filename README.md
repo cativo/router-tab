@@ -4,7 +4,7 @@ Router-Tab Directive
 
 ### Install
     
-    npm install @zerohouse/router-tab --save
+    npm i @cativo/router-tab --save
     
 ### Import RouterTabModule
     @NgModule({
