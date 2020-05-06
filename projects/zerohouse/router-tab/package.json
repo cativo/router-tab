@@ -1,27 +1,27 @@
 {
-  "name": "@zerohouse/router-tab",
-  "version": "0.0.4",
+  "name": "@cativo/router-tab",
+  "version": "0.0.8",
   "peerDependencies": {
-    "@angular/common": "^7.0.0 || ^6.0.0",
-    "@angular/core": "^7.0.0 || ^6.0.0",
-    "@angular/cdk": "^7.0.0",
-    "@angular/material": "^7.0.0",
-    "@angular/router": "^7.0.0 || ^6.0.0"
+    "@angular/common": "^9.1.4",
+    "@angular/core": "^9.1.4",
+    "@angular/cdk": "^9.2.2",
+    "@angular/material": "^9.2.2",
+    "@angular/router": "^9.1.4"
   },
-  "description": "router-tab directive for mat-tabs",
+  "description": "router-tab directive for mat-tabs | based on @zerohouse/router-tab",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/zerohouse/router-tab.git"
+    "url": "git@github.com:cativo/router-tab.git"
   },
   "keywords": [
     "router",
     "material",
     "tabs"
   ],
-  "author": "parksungho86@gmail.com",
+  "author": "as.1337@outlook.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zerohouse/router-tab/issues"
+    "url": "https://github.com/cativo/router-tab/issues"
   },
-  "homepage": "https://github.com/zerohouse/router-tab#readme"
+  "homepage": "https://github.com/cativo/router-tab#readme"
 }
