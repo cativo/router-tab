@@ -1,6 +1,6 @@
 {
   "name": "@cativo/router-tab",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "peerDependencies": {
     "@angular/common": "^11.1.0",
     "@angular/core": "^11.1.0",
@@ -26,7 +26,7 @@
   "homepage": "https://github.com/cativo/router-tab#readme",
   "scripts": {
     "test": "echo \"No test specified\"",
-    "publish": "np"
+    "release": "np"
   },
   "dependencies": {
     "np": "^7.2.0"
