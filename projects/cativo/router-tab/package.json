@@ -2,11 +2,11 @@
   "name": "@cativo/router-tab",
   "version": "0.0.12",
   "peerDependencies": {
-    "@angular/common": "^9.1.4",
-    "@angular/core": "^9.1.4",
-    "@angular/cdk": "^9.2.2",
-    "@angular/material": "^9.2.2",
-    "@angular/router": "^9.1.4"
+    "@angular/common": "^11.1.0",
+    "@angular/core": "^11.1.0",
+    "@angular/cdk": "^11.1.0",
+    "@angular/material": "^11.1.0",
+    "@angular/router": "^11.1.0"
   },
   "description": "router-tab directive for mat-tabs | based on @zerohouse/router-tab",
   "repository": {
@@ -27,5 +27,8 @@
   "scripts": {
     "test": "echo \"No test specified\"",
     "publish": "np"
+  },
+  "dependencies": {
+    "np": "^7.2.0"
   }
 }
