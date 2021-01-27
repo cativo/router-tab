@@ -1,6 +1,6 @@
 {
   "name": "@cativo/router-tab",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "peerDependencies": {
     "@angular/common": "^11.1.0",
     "@angular/core": "^11.1.0",
