@@ -24,6 +24,9 @@
     "url": "https://github.com/cativo/router-tab/issues"
   },
   "homepage": "https://github.com/cativo/router-tab#readme",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "scripts": {
     "test": "echo \"No test specified\"",
     "release": "np"
